@@ -1,0 +1,108 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .li_top {
+    flex: 99;
+  }
+  .li_not_top {
+    flex: 1;
+  }
+  li {
+    transition: flex 300ms ease-out, color 200ms ease-out;
+    padding-left: 0px;
+    padding-right: 10px;
+    text-align: right;
+    height: 100vh;
+  }
+  
+  li:nth-child(1) {
+    background: #aad5aa;
+  }
+  li:nth-child(1) {
+    background-image: url(./amazon1.webp);
+    background-repeat:  no-repeat;
+    background-position:center;        
+    background-size: cover;
+  }
+  
+  li:nth-child(2) {
+    background: #8dc78d;
+  }
+  li:nth-child(2):hover {
+    background-image: url(./amazon2.webp);
+    background-repeat:  no-repeat;
+    background-position: center;        
+    background-size: cover;
+    background-color:  	#8dc78d;
+  }
+  
+  li:nth-child(3) {
+    background: #72b872;
+  }
+  li:nth-child(3):hover {
+    background-image: url(./amazon3.webp);
+    background-repeat:  no-repeat;
+    background-position: left;        
+    background-size: cover;
+    background-color: #72b872;
+  }
+  
+  li:nth-child(4) {
+    background: #55aa55;
+  }
+  li:nth-child(4):hover {
+    background-image: url(./amazon4.webp);
+    background-repeat:  no-repeat;
+    background-position: left;        
+    background-size: cover;
+    background-color: 	#55aa55;
+  }
+
+  li:nth-child(5) {
+    background: #478d47;
+  }
+  li:nth-child(5):hover {
+    background-image: url(amazon5.webp);
+    background-repeat:  no-repeat;
+    background-position: left;        
+    background-size: cover;
+    background-color: #478d47;
+  }
+
+  li:nth-child(6) {
+    background: #387238;
+  }
+  li:nth-child(6):hover {
+    background-image: url(./amazon6.webp);
+    background-repeat:  no-repeat;
+    background-position: left;        
+    background-size: cover;
+    background-color: #387238;
+  }
+
+  
+  li:hover {
+     flex: 3000;
+     color: rgba(255, 255, 255,0);
+  }
+  div {
+    font-size: 32px;
+  }
+  .rotate span {
+    display: inline-block;
+    transform: rotate(90deg);
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Times New Roman', serif;
+  }
